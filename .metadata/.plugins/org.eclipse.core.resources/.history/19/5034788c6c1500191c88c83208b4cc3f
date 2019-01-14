@@ -1,0 +1,14 @@
+package lab01;
+
+public class Q3 {
+
+	public static void main(String[] args) {
+		int num;
+		
+		System.out.print("Please enter an integer >= 1000: ");
+		Scanner input = new Scanner(System.in);
+		
+
+	}
+
+}

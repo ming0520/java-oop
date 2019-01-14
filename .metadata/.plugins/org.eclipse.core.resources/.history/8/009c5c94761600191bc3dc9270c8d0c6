@@ -1,0 +1,11 @@
+package lab4;
+
+public class Q2 {
+
+	public static void main(String[] args) {
+		final float TAXA = 0.07;
+		final float TAXB = 0.05;
+
+	}
+
+}

@@ -1,0 +1,30 @@
+package lab01;
+
+import java.util.Scanner;
+
+public class Q3 {
+
+	public static void main(String[] args) {
+		int num = 0, rem = 0;
+		
+		System.out.print("Please enter an integer >= 1000: ");
+		Scanner input = new Scanner(System.in);
+		num = input.nextInt();
+		
+		input.close();
+
+	}
+	
+	public static void recurse(int number) {
+		int rem;
+		
+		rem = number % 1000;
+		number /= 1000;
+		if(number > 1000) {
+			recurse(number);
+		}
+		System.out.print(rem);
+		return;
+	}
+
+}

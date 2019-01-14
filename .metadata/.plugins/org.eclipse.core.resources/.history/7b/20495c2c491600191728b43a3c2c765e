@@ -1,0 +1,19 @@
+package lab01;
+
+import java.util.Scanner;
+
+public class Q4 {
+
+	public static void main(String[] args) {
+		int orc, main, bal, total;
+		
+		System.out.println("Please enter the number of tickets sold in each category below:-");
+		System.out.print("Orchestra: ");
+		Scanner input = new Scanner(System.in);
+		orc = input.nextInt();
+		
+		input.close();
+
+	}
+
+}

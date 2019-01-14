@@ -1,0 +1,36 @@
+package lab01;
+
+import java.util.Scanner;
+
+public class Q4 {
+
+	public static void main(String[] args) {
+		int orc, main, bal, total;
+		
+		System.out.println("The price for each ticket is shown as follows:-\n1. Orchestra seats - $25\n2. Main floor seats - $30\n3. Balcony seats - $15");
+		System.out.println("Please enter the number of tickets sold in each category below:-");
+		
+		System.out.print("\nOrchestra seats: ");
+		Scanner input = new Scanner(System.in);
+		orc = input.nextInt();
+		System.out.print("Main floor seats: ");
+		main = input.nextInt();
+		System.out.print("Balcony seats: ");
+		bal = input.nextInt();
+		
+		orc *= 25;
+		main *= 30;
+		bal *= 15;
+		total = orc + main + bal;
+		
+		System.out.println("========================================================");
+		System.out.println("\nRevenue generated for Orchestra seats: " + orc);
+		System.out.println("Revenue generated for Main floor seats: " + main);
+		System.out.println("Revenue generated for Balcony seats: " + bal);
+		System.out.println("Total revenue generated: " + total);
+		
+		input.close();
+
+	}
+
+}

@@ -1,0 +1,25 @@
+package lab01;
+
+import java.util.Scanner;
+
+public class Q6 {
+
+	public static void main(String[] args) {
+		final double PI = 3.142;
+		double sliceArea = 14.125;
+		
+		Scanner input = new Scanner(System.in);
+		
+		System.out.print("What is the diameter of the pizza to be ordered (in inches): ");
+		double diameter = input.nextDouble();
+		input.close();
+		
+		double area = PI * (diameter / 2) * (diameter / 2);
+		
+		int num = (int)(area / sliceArea);
+		
+		System.out.print("The number of slices of pizza is " + num);
+
+	}
+
+}

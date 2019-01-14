@@ -1,0 +1,23 @@
+package lab2p1;
+
+import java.util.*;	//for Date
+import java.text.*;	//for SimpleDateFormat
+
+public class Ch2DateDisplay {
+
+	public static void main(String[] args) {
+		Date today;
+		SimpleDateFormat simpleDF1, simpleDF2;
+		
+		today = new Date();
+		simpleDF1 = new SimpleDateFormat();
+		simpleDF2 = new SimpleDateFormat("EEE MMM dd, yyyy");
+		
+		//Default short format display
+		System.out.println("Today is " + simpleDF1.format(today));
+		
+		//Programme-designated long format display
+		System.out.println("Today is " + simpleDF2.format(today));
+	}
+
+}

@@ -1,0 +1,31 @@
+package practice1;
+
+import java.util.*;
+
+public class ReverseNumber {
+
+	public static void main(String[] args) {
+		int num, div = 10, rem = 1;
+		
+		System.out.println("Input a  number: ");
+		
+		Scanner input = new Scanner(System.in);
+		num = input.nextInt();
+		scanner.close();
+		
+		System.out.print("Reversed number: ");
+		
+		while(rem != 0) {
+			rem = num % div;
+			if(rem == 0) {
+				System.out.print(num);
+			}
+			else {
+				num /= div;
+				System.out.print(rem);
+			}
+		}
+
+	}
+
+}

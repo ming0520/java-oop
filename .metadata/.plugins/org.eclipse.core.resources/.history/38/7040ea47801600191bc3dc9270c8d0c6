@@ -1,0 +1,15 @@
+package lab4;
+
+public class Q4 {
+
+	public static void main(String[] args) {
+		double weight = 0;
+		
+		DecimalFormat = new DecimalFormat("0.00");
+		Scanner input = new Scanner(System.in);
+		
+		
+
+	}
+
+}

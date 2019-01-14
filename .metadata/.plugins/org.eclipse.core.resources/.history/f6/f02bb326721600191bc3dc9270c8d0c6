@@ -1,0 +1,30 @@
+package lab4;
+
+import java.util.Scanner;
+import java.math.BigDecimal;
+
+public class Q1 {
+
+	public static void main(String[] args) {
+		float Number1, Number2;
+		
+		Scanner input = new Scanner(System.in);
+		
+		System.out.printf("Enter two numbers ");
+		Number1 = input.nextFloat();
+		Number2 = input.nextFloat();
+		
+		input.close();
+
+		if(Number1 > Number2) {
+			System.out.printf("%g is greater than %g", Number1, Number2);
+		}
+		else if(Number1 == Number2) {
+			System.out.println("They are equal.");
+		}
+		else {
+			System.out.printf("%g is greater than %g", Number2, Number1);
+		}
+	}
+
+}

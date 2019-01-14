@@ -1,0 +1,66 @@
+package practice1;
+
+import java.util.*;
+
+public class Marksheet {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Welcome to marks sheet");
+		
+		System.out.print("Enter the name of Student \t:\t");
+		String name = sc.next();
+		
+		System.out.print("Enter the Roll Number \t\t:\t");
+		String roll = sc.next();
+		
+		System.out.print("Enter the College Name \t\t:\t");
+		String clg = sc.next();
+		
+		System.out.print("\nEnter the  marks of Sub1 \t:\t");
+		int s1 = sc.nextInt();
+		System.out.print("\nEnter the  marks of Sub2 \t:\t");
+		int s2 = sc.nextInt();
+		System.out.print("\nEnter the  marks of Sub3 \t:\t");
+		int s3 = sc.nextInt();
+		System.out.print("\nEnter the  marks of Sub4 \t:\t");
+		int s4 = sc.nextInt();
+		System.out.print("\nEnter the  marks of Sub5 \t:\t");
+		int s5 = sc.nextInt();
+		
+		sc.close();
+		
+		int total = s1 + s2 + s3 + s4 + s5;
+		float percent = total / 500 * 100;
+		
+		System.out.println("Student Marksheet");
+		System.out.println("Name:\t" + name);
+		System.out.println("Roll Number:\t" + roll);
+		System.out.println("College:\t" + clg);
+		
+		System.out.println("\nSubject\tMarks");
+		System.out.println("S1\t" + s1);
+		System.out.println("S2\t" + s2);
+		System.out.println("S3\t" + s3);
+		System.out.println("S4\t" + s4);
+		System.out.println("S4\t" + s5);
+		
+		System.out.println("\nTotal\t: " + total);
+		
+		System.out.println("Percentage\t: " + percent + "%");
+		
+		System.out.print("\nDivision\t: ");
+		if(percent > 60) {
+			System.out.println("First");
+		}
+		else if(percent >= 40 && percent <= 59) {
+			System.out.println("Second");
+		}
+		else if(percent < 40) {
+			System.out.print("Third");
+		}
+		
+	}
+
+}

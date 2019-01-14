@@ -1,0 +1,17 @@
+package lab01;
+
+import java.util.*; 
+
+public class Q1 {
+
+	public static void main(String[] args) {
+		int op, a, b, trueans, studans;
+		
+		System.out.println("Please enter the operation you want to perform:-\n1. Addition\n2. Subtraction\n3. Multiplication\n4.Division");
+		
+		Scanner input = new Scanner(System.in);
+		op = 
+
+	}
+
+}

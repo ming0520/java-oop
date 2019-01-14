@@ -1,0 +1,36 @@
+package practice1;
+
+import java.util.*;
+
+public class Marksheet {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("\Welcome to marks sheet");
+		
+		System.out.print("Enter the name of Student \t:\t");
+		String name = sc.next();
+		
+		System.out.print("Enter the Roll Number \t\t:\t");
+		String roll = sc.next();
+		
+		System.out.print("Enter the College Name \t\t:\t");
+		String clg = sc.next();
+		
+		System.out.print("\nEnter the  marks of Sub1 \t:\t");
+		int s1 = sc.nextInt();
+		System.out.print("\nEnter the  marks of Sub2 \t:\t");
+		int s2 = sc.nextInt();
+		System.out.print("\nEnter the  marks of Sub3 \t:\t");
+		int s3 = sc.nextInt();
+		System.out.print("\nEnter the  marks of Sub4 \t:\t");
+		int s4 = sc.nextInt();
+		System.out.print("\nEnter the  marks of Sub5 \t:\t");
+		int s5 = sc.nextInt();
+		
+		int total;
+		
+	}
+
+}
