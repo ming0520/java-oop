@@ -10,9 +10,6 @@ public class L2Q1 {
 		myWindow.setSize(800, 600);
 		myWindow.setTitle("Welcome to Java");
 		myWindow.setVisible(true);
-		/*
-		 * test
-		 */
 
 	}
 
